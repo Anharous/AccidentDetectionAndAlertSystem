@@ -37,6 +37,10 @@ router.get("/test", (req, res) => {
   res.send("✅ Accident routes are working!");
 });
 
+router.post("/alert", async (req, res) => {
+  res.send("Alert Route is Working!");
+});
+
 
 router.post("/report", upload.single("image"), async (req, res) => {
   try {
@@ -46,7 +50,7 @@ router.post("/report", upload.single("image"), async (req, res) => {
     let { location, timestamp } = req.body;
     const imageUrl = req.file ? `/uploads/${req.file.filename}` : null;
 
-    // Convert timestamp string to a Date object
+    
     timestamp = timestamp ? new Date(timestamp) : new Date();
 
     if (isNaN(timestamp)) {
