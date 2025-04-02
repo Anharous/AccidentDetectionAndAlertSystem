@@ -56,8 +56,8 @@ const sendSMSAlert = async (location, status, phoneNumber) => {
   try {
     await twilioClient.messages.create({
       body: `🚨 Alert: ${status} at ${location}. Immediate response required!`,
-      from: //twilo number, 
-      to: //phone number, 
+      from: 124456,//twilo number, 
+      to: 12345678,//phone number, 
     });
     console.log(`📲 SMS Alert Sent to ${phoneNumber}`);
   } catch (error) {
