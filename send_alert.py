@@ -1,9 +1,9 @@
 import smtplib
 
 def send_email_alert():
-    sender_email = "amirtha.0726@gmail.com"
-    receiver_email = "sathyasree3107@gmail.com"
-    password = "amirtha.bts26"
+    sender_email = "Sender Email"
+    receiver_email = "receiver Email"
+    password = "mail pwd"
     
     subject = "🚨 Traffic Alert: Accident Detected"
     body = "An accident has been detected at XYZ location. Immediate response required!"
