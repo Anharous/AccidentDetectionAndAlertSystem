@@ -18,7 +18,15 @@ This project is an AI-powered real-time traffic accident detection and alert sys
 - Live Video Processing: OpenCV (Python)
 
   🔹 How to use This Project:
-  step 1: clone the repo - git clone repoLink
-  step 2: instal node pagckage modules - npm i
-  step 3: run train.py file it will generate traffic_model.h5 file inside backend folder.
-  step 4: run detect.py file it open your webCamera and start detecting accident. if any accident detected in will store it as viedo in your db.
+  
+- step 1: clone the repo - git clone repoLink
+
+- step 2: instal node pagckage modules - npm i
+
+- step 3: run train.py file it will generate traffic_model.h5 file inside backend folder.
+
+- step 4: run detect.py file it open your webCamera and start detecting accident. if any accident detected in will store it as viedo in your db.
+ 
+  
+  
+  
