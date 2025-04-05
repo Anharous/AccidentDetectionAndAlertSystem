@@ -1,13 +1,20 @@
-Accident Detection and Alert System 🚑
+**Accident Detection and Alert System 🚑**
+
 This project is an AI-powered real-time traffic accident detection and alert system. It uses TensorFlow for accident detection and Node.js with Express for backend alerts.
 
-🔹 Key Features:
+
+🔹 **Key Features:**
+
 ✔ Detects accidents in live video using AI (CNN model).
+
 ✔ Automatically records video when an accident occurs.
+
 ✔ Sends SMS alerts to police and ambulances.
+
 ✔ Stores accident data in a MongoDB database.
 
-🔹 Tech Stack:
+
+🔹 **Tech Stack:**
 
 - AI Model: TensorFlow (CNN)
 
@@ -17,7 +24,8 @@ This project is an AI-powered real-time traffic accident detection and alert sys
 
 - Live Video Processing: OpenCV (Python)
 
-  🔹 How to use This Project:
+
+  🔹 **How to use This Project:**
   
 - step 1: clone the repo - git clone repoLink
 
